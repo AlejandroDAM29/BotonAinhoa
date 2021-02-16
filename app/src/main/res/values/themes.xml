@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BotonAinhoa" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!--Con estos dos items elimino el ActionBar por defecto para permitir el Toolbar-->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_titulo</item>
+        <item name="android:text">Don meme</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/lms_beyond_infinity</item>
+        <item name="android:layout_below">@id/atoolbar</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingTop">@dimen/padding_arriba_titulo</item>
+    </style>
+
+    <style name="imagen_gato">
+        <item name="android:layout_width">@dimen/ancho_imagen</item>
+        <item name="android:layout_height">@dimen/alto_imagen</item>
+        <item name="android:src">@drawable/pulsa_el_boton</item>
+        <item name="android:layout_below">@id/titulo</item>
+        <item name="android:layout_marginTop">@dimen/margen_arriba_foto</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="boton_meme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="minWidth">@dimen/ancho_min_boton</item>
+        <item name="minHeight">@dimen/alto_min_boton</item>
+        <item name="android:text">@string/texto_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:backgroundTint">#CDDC39</item>
+        <item name="android:layout_below">@id/imagen_gato</item>
+        <item name="android:layout_marginTop">@dimen/margen_arriba_boton_meme</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">ejecutar_video</item>
+    </style>
+
+    <style name="config_texto_informacion">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/texto_informacion</item>
+        <item name="android:textSize">@dimen/tamaño_texto_informacion</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+
+    </style>
+
+
+</resources>

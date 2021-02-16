@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texto_boton">50sp</dimen>
+    <dimen name="ancho_min_boton">180dp</dimen>
+    <dimen name="alto_min_boton">56dp</dimen>
+    <dimen name="texto_titulo">55sp</dimen>
+    <dimen name="espacio_foto_boton">40dp</dimen>
+    <dimen name="padding_arriba_titulo">20dp</dimen>
+    <dimen name="ancho_imagen">400dp</dimen>
+    <dimen name="alto_imagen">300dp</dimen>
+    <!-- A partir de aquí, he de añadir a los teléfonos lo que ocurre -->
+    <dimen name="margen_arriba_foto">30dp</dimen>
+    <dimen name="margen_arriba_boton_meme">20dp</dimen>
+    <dimen name="tamaño_texto_informacion">20sp</dimen>
+</resources>

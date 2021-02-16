@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Don Meme</string>
+    <string name="titulo">Don meme</string>
+    <string name="texto_boton">Pulsa tu meme</string>
+    <!--Para los datos de inforamación-->
+    <string name="texto_informacion">Creadores: \n    -Alejandro Exposito Ortiz
+        \n -Ainhoa Rodriguez Rodriguez
+        \n -Rodrigo Holme Lopes
+    \n\nFecha de creación:
+    \n -15/02/2021
+    \n\nVersion:
+    \n -1.0</string>
+</resources>
