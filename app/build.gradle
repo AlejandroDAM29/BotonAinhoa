@@ -19,7 +19,7 @@ android {
 
     buildTypes {
         release {
-            //Esto es para el proguar de la carpeta de recursos
+            //Esto es para el proguar de la carpeta de los recursos
             shrinkResources true
             //Esto es para el proguar de la carpeta de java
             minifyEnabled true
