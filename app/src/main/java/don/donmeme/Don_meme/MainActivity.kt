@@ -1,4 +1,4 @@
-package com.example.Don_meme
+package don.donmeme.Don_meme
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +9,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.Toolbar//Cuidado con que no se quede anticuado este paquete
+import com.example.Don_meme.R
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 
@@ -40,12 +41,12 @@ class MainActivity : AppCompatActivity() {
      */
 
     fun ejecutar_video(view:View){
-        val i = Intent(this,Video::class.java)
+        val i = Intent(this, Video::class.java)
         startActivity(i)
     }//Fin del método ejecutar video
 
     fun ejecutar_informacion(view:View){
-        val i = Intent(this,Informacion::class.java)
+        val i = Intent(this, Informacion::class.java)
         startActivity(i)
     }
 
@@ -62,7 +63,7 @@ class MainActivity : AppCompatActivity() {
     //Método para la acción de los botones del menú
     override fun onOptionsItemSelected(opcion_menu: MenuItem):Boolean{
         var id = opcion_menu.itemId
-        if(id==R.id.informacion){
+        if(id== R.id.informacion){
            ejecutar_informacion(findViewById(R.id.boton_meme))
             return true
         }

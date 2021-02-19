@@ -1,4 +1,4 @@
-package com.example.Don_meme
+package don.donmeme.Don_meme
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

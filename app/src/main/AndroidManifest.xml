@@ -5,19 +5,21 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:hardwareAccelerated="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BotonAinhoa">
-        <activity android:name=".Video"></activity>
+        <activity android:name="don.donmeme.Don_meme.Video"></activity>
         <!-- Esto es para poner los metadatos y el identificador de prueba -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-5323698816824230~1436627562" />
 
-        <activity android:name=".MainActivity"
+        <activity android:name="don.donmeme.Don_meme.MainActivity"
+            android:hardwareAccelerated="true"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +28,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Informacion"
+            android:hardwareAccelerated="false"
+            android:name="don.donmeme.Don_meme.Informacion"
             android:theme="@style/Theme.AppCompat.Dialog" />
     </application>
 

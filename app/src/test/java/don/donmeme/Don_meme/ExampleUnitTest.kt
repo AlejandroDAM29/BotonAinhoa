@@ -1,4 +1,4 @@
-package com.example.Don_meme
+package don.donmeme.Don_meme
 
 import org.junit.Test
 

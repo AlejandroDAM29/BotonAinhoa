@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/purple_500"
-    tools:context=".MainActivity">
+    tools:context="don.donmeme.Don_meme.MainActivity">
 
     <include android:id="@+id/atoolbar"
         layout="@layout/toolbar"
@@ -33,6 +33,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="FULL_BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+        ads:adUnitId="ca-app-pub-5323698816824230/8084375511" />
 
 </RelativeLayout>

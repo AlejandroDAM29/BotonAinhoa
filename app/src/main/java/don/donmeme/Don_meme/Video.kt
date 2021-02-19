@@ -1,4 +1,4 @@
-package com.example.Don_meme
+package don.donmeme.Don_meme
 
 
 import android.net.Uri
@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.MediaController
 import android.widget.VideoView
+import com.example.Don_meme.R
 
 class Video : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,7 @@ class Video : AppCompatActivity() {
 
         var video: VideoView = findViewById(R.id.vv_test)
         //Creo el Path para insertarlo en el Uri
-        var videoPath:String= "android.resource://"+getPackageName()+"/"+R.raw.sacamefoto
+        var videoPath:String= "android.resource://"+getPackageName()+"/"+ R.raw.sacamefoto
         var uri: Uri =Uri.parse(videoPath)
         //Establezo el Uri para el video
         video.setVideoURI(uri)
