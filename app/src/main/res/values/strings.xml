@@ -10,4 +10,6 @@
     \n -15/02/2021
     \n\nVersion:
     \n -1.0</string>
+    <!-- Para el Banner -->
+    <string name="banner_ad_unit_id">ca-app-pub-5323698816824230/5300716927</string>
 </resources>

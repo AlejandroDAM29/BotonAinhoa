@@ -16,7 +16,7 @@
         <!-- Esto es para poner los metadatos y el identificador de prueba -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5323698816824230~1436627562" />
+            android:value="ca-app-pub-5323698816824230~1006248698" />
 
         <activity android:name="don.donmeme.Don_meme.MainActivity"
             android:hardwareAccelerated="true"
