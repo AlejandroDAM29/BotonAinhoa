@@ -33,6 +33,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="FULL_BANNER"
-        ads:adUnitId="ca-app-pub-5323698816824230/8084375511" />
+        ads:adUnitId="ca-app-pub-5323698816824230/5300716927" />
 
 </RelativeLayout>
